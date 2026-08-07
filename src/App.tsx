@@ -1,4 +1,5 @@
 import { BrowserRouter, NavLink, Route, Routes } from 'react-router-dom';
+import Alertes from './pages/Alertes';
 import Home from './pages/Home';
 import Localisation from './pages/Localisation';
 import Results from './pages/Results';
@@ -25,15 +26,18 @@ function App() {
               <NavLink to="/results" className={navLinkClass}>
                 Résultats
               </NavLink>
+              <NavLink to="/alertes" className={navLinkClass}>
+                Alertes
+              </NavLink>
               <NavLink to="/localisation" className={navLinkClass}>
                 Carte
               </NavLink>
             </nav>
             <NavLink
-              to="/localisation"
+              to="/alertes"
               className="rounded-full border border-cyan-400/30 bg-cyan-400/10 px-4 py-2 text-sm font-medium text-cyan-200 transition hover:bg-cyan-400/20"
             >
-              Voir la carte
+              Voir les alertes
             </NavLink>
           </div>
         </header>
@@ -42,6 +46,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/results" element={<Results />} />
+            <Route path="/alertes" element={<Alertes />} />
             <Route path="/localisation" element={<Localisation />} />
             <Route path="*" element={<Home />} />
           </Routes>

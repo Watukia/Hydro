@@ -47,6 +47,30 @@ export const highlights = [
   'Système d’alerte adapté aux contextes ruraux avec faible connectivité.',
 ];
 
+export const alertFeed = [
+  {
+    level: 'Critique',
+    title: 'Déficit hydrique majeur',
+    area: 'Aketi / Itimbiri central',
+    description: 'Le niveau de ruissellement descend à des valeurs anormalement faibles et l’humidité du sol devient insuffisante pour les cultures de saison sèche.',
+    action: 'Diffuser une alerte prioritaire, programmer un contrôle de station et ajuster les calendriers culturaux.',
+  },
+  {
+    level: 'Élevée',
+    title: 'Vulnérabilité agricole croissante',
+    area: 'Sous-bassins de Bas-Uele',
+    description: 'Les modèles de scénarios climatiques indiquent une hausse de la pression sur les petits exploitants en raison d’un manque d’eau disponible.',
+    action: 'Mettre en place une prévention ciblée sur les zones sensibles avec suivi agronomique renforcé.',
+  },
+  {
+    level: 'Standard',
+    title: 'Suivi des précipitations',
+    area: 'Bassin de l’Itimbiri',
+    description: 'Les derniers relevés portent un indice de vigilance sur les tendances pluviométriques locales à mesurer avant les prochaines campagnes.',
+    action: 'Renforcer les observations de terrain et consolider les transmissions vers les centres de décision.',
+  },
+];
+
 export const subBasins = [
   { name: 'Aketi', territory: 'Bas-Uele', area: '1845,83 km²' },
   { name: 'Itimbiri (1)', territory: 'Bas-Uele/Mongala', area: '2340,94 km²' },
