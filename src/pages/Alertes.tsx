@@ -15,7 +15,7 @@ export default function Alertes() {
           </div>
           <div className="flex flex-wrap gap-3">
             <a
-              href="https://wa.me/243821619942?text=Bonjour%2C%20je%20souhaite%20signaler%20une%20alerte%20hydrique%20pour%20le%20bassin%20de%20l%27Itimbiri."
+              href="https://wa.me/243821839934?text=Bonjour%2C%20je%20souhaite%20signaler%20une%20alerte%20hydrique%20pour%20le%20bassin%20de%20l%27Itimbiri."
               target="_blank"
               rel="noreferrer"
               className="inline-flex items-center gap-3 rounded-3xl border border-emerald-300/30 bg-emerald-400/10 px-5 py-3 transition hover:bg-emerald-400/20 focus:outline-none focus:ring-2 focus:ring-emerald-300/70"
@@ -99,6 +99,7 @@ export default function Alertes() {
     </div>
   );
 }
+
 
 
 
