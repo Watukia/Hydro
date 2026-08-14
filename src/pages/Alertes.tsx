@@ -8,9 +8,9 @@ export default function Alertes() {
         <div className="flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between">
           <div>
             <p className="text-sm font-semibold uppercase tracking-[0.35em] text-cyan-300">Alertes</p>
-            <h1 className="mt-4 text-4xl font-semibold text-white">SystÃ¨me dâ€™alertes hydriques</h1>
+            <h1 className="mt-4 text-4xl font-semibold text-white">Système d’alertes hydriques</h1>
             <p className="mt-4 max-w-3xl text-lg leading-8 text-slate-300">
-              Le tableau de suivi transforme les indicateurs hydrologiques en recommandations dâ€™action pour les acteurs agricoles et les gestionnaires de lâ€™eau.
+              Le tableau de suivi transforme les indicateurs hydrologiques en recommandations d’action pour les acteurs agricoles et les gestionnaires de l’eau.
             </p>
           </div>
           <div className="flex flex-wrap gap-3">
@@ -99,5 +99,6 @@ export default function Alertes() {
     </div>
   );
 }
+
 
 
